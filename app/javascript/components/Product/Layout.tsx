@@ -269,7 +269,6 @@ const CtaBar = ({
         bottom: isDesktop ? undefined : 0,
         left: 0,
         right: 0,
-        // Render above the product edit button
         zIndex: "var(--z-index-menubar)",
         marginTop: hasHero ? "var(--border-width)" : undefined,
       }}
